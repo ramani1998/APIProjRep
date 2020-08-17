@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 868
+Size: 0
+Timestamp: Mon Aug 10 12:00:55 IST 2020
+TestStep: VerifyCustomerCreated
+Error:java.lang.AssertionError: Cancelling due to failed test step. Expression: (runner.status != com.eviware.soapui.model.testsuite.TestRunner$Status.FAILED)
+
+----------------- Messages ------------------------------
+java.lang.AssertionError: Cancelling due to failed test step. Expression: (runner.status != com.eviware.soapui.model.testsuite.TestRunner$Status.FAILED)
+error at line: 14

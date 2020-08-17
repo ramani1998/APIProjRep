@@ -1,0 +1,8 @@
+Status: FAILED
+Time Taken: 252
+Size: 840
+Timestamp: Mon Aug 10 12:00:54 IST 2020
+TestStep: DatabaseConnection
+
+----------------- Messages ------------------------------
+[JDBC Timeout] JDBC Request timeout error! Query not executed in 3 ms.

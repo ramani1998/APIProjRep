@@ -1,0 +1,508 @@
+2020-08-10 12:11:27,901 WARN  [SoapUI] Missing folder [C:\Users\RamaniPalaniappan\Desktop\Project\my-app\ext] for external libraries
+2020-08-10 12:11:28,069 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\RamaniPalaniappan\soapui-settings.xml]
+2020-08-10 12:11:28,866 WARN  [SoapUI] Plugin 'ready-uxm-plugin-os-1.0.3.jar' is not loaded because it hasn't been signed by SmartBear Software.
+2020-08-10 12:11:29,544 INFO  [PluginManager] Adding plugin from [C:\Users\RamaniPalaniappan\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2020-08-10 12:11:29,544 INFO  [PluginManager] Adding plugin from [C:\Users\RamaniPalaniappan\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2020-08-10 12:11:30,666 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-08-10 12:11:30,672 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-08-10 12:11:30,842 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-08-10 12:11:30,844 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-08-10 12:11:30,950 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-08-10 12:11:30,952 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-08-10 12:11:31,056 INFO  [PluginManager] Adding plugin from [C:\Users\RamaniPalaniappan\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2020-08-10 12:11:31,179 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-08-10 12:11:31,183 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-08-10 12:11:31,541 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-08-10 12:11:31,541 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-08-10 12:11:31,643 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-08-10 12:11:31,647 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-08-10 12:11:31,745 INFO  [PluginManager] Adding plugin from [C:\Users\RamaniPalaniappan\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2020-08-10 12:11:32,124 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-08-10 12:11:32,125 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-08-10 12:11:32,217 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-08-10 12:11:32,219 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-08-10 12:11:32,318 INFO  [PluginManager] 4 plugins loaded in 2776 ms
+2020-08-10 12:11:32,318 INFO  [DefaultSoapUICore] All plugins loaded
+2020-08-10 12:11:33,451 INFO  [WsdlProject] Loaded project from [file:/C:/Users/RamaniPalaniappan/Desktop/Project/my-app/Product-TC001-soapui-project.xml]
+2020-08-10 12:11:33,459 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Customer_TC01]
+2020-08-10 12:11:33,461 INFO  [SoapUITestCaseRunner] Running Project [Customer_TC01], runType = SEQUENTIAL
+2020-08-10 12:11:33,493 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Customer Scenario with PropertyTransfer]
+2020-08-10 12:11:33,500 INFO  [SoapUITestCaseRunner] running step [CustomerDetails]
+2020-08-10 12:11:33,539 INFO  [SoapUITestCaseRunner] running step [CustomerDetails Transfer]
+2020-08-10 12:11:33,834 INFO  [SoapUITestCaseRunner] running step [Call CreateCustomer]
+2020-08-10 12:11:35,887 INFO  [SchemaUtils] Added default schema from file:/C:/Users/RamaniPalaniappan/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2020-08-10 12:11:35,915 INFO  [SchemaUtils] Added default schema from file:/C:/Users/RamaniPalaniappan/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2020-08-10 12:11:35,928 INFO  [SchemaUtils] Added default schema from file:/C:/Users/RamaniPalaniappan/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2020-08-10 12:11:35,934 INFO  [SchemaUtils] Added default schema from file:/C:/Users/RamaniPalaniappan/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2020-08-10 12:11:35,941 INFO  [SchemaUtils] Added default schema from file:/C:/Users/RamaniPalaniappan/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2020-08-10 12:11:35,946 INFO  [SchemaUtils] Added default schema from file:/C:/Users/RamaniPalaniappan/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2020-08-10 12:11:35,955 INFO  [SchemaUtils] Added default schema from file:/C:/Users/RamaniPalaniappan/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2020-08-10 12:11:35,962 INFO  [SchemaUtils] Added default schema from file:/C:/Users/RamaniPalaniappan/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2020-08-10 12:11:35,968 INFO  [SchemaUtils] Added default schema from file:/C:/Users/RamaniPalaniappan/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2020-08-10 12:11:35,975 INFO  [SchemaUtils] Added default schema from file:/C:/Users/RamaniPalaniappan/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2020-08-10 12:11:35,981 INFO  [SchemaUtils] Loading schema types from [file:\C:\Users\RamaniPalaniappan\OneDrive\Personal\Learning\SDET%20Full%20Stack\APITesting\SOAP%20Project\SOAP%20API%20WSDL%20EndPoints\SOAP%20API%20WSDL%20EndPoints\customerCustomerRepositoryV1.xml]
+2020-08-10 12:11:35,983 INFO  [SchemaUtils] Getting schema file:\C:\Users\RamaniPalaniappan\OneDrive\Personal\Learning\SDET%20Full%20Stack\APITesting\SOAP%20Project\SOAP%20API%20WSDL%20EndPoints\SOAP%20API%20WSDL%20EndPoints\customerCustomerRepositoryV1.xml
+2020-08-10 12:11:36,225 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:11:36,227 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:11:36,228 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:11:36,229 INFO  [SoapUITestCaseRunner] running step [Call GetAllCustomers]
+2020-08-10 12:11:43,386 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:11:43,386 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:11:43,388 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:11:43,393 INFO  [SoapUITestCaseRunner] running step [CustomerID transfer_GetCustomer]
+2020-08-10 12:11:43,398 INFO  [SoapUITestCaseRunner] running step [Call GetCustomerByID]
+2020-08-10 12:11:44,166 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:11:44,167 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:11:44,170 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:11:44,177 INFO  [SoapUITestCaseRunner] running step [CustomerID transfer_DeleteCustomer]
+2020-08-10 12:11:44,182 INFO  [SoapUITestCaseRunner] running step [Call DeleteCustomerByID]
+2020-08-10 12:11:45,288 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:11:45,288 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:11:45,290 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:11:45,291 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-08-10 12:11:45,296 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Customer Scenario with PropertyTransfer], time taken: 11742ms, status: FINISHED
+2020-08-10 12:11:45,298 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Customer Scenario with PropertyExpansion]
+2020-08-10 12:11:45,298 INFO  [SoapUITestCaseRunner] running step [CustomerDetails]
+2020-08-10 12:11:45,299 INFO  [SoapUITestCaseRunner] running step [Call CreateCustomer]
+2020-08-10 12:11:46,176 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:11:46,176 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:11:46,177 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:11:46,181 INFO  [SoapUITestCaseRunner] running step [Call GetAllCustomers]
+2020-08-10 12:11:52,147 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:11:52,148 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:11:52,153 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:11:52,154 INFO  [SoapUITestCaseRunner] running step [Call GetCustomerByID]
+2020-08-10 12:11:52,905 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:11:52,905 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:11:52,906 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:11:52,910 INFO  [SoapUITestCaseRunner] running step [Call DeleteCustomerByID]
+2020-08-10 12:11:53,981 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:11:53,982 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:11:53,986 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:11:53,987 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-08-10 12:11:53,990 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Customer Scenario with PropertyExpansion], time taken: 8661ms, status: FINISHED
+2020-08-10 12:11:53,996 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CustomerScenarioEnd to End Flow]
+2020-08-10 12:11:53,997 INFO  [SoapUITestCaseRunner] running step [CustomerDetails]
+2020-08-10 12:11:53,998 INFO  [SoapUITestCaseRunner] running step [Call CreateCustomer]
+2020-08-10 12:11:54,890 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:11:54,890 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:11:54,891 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:11:54,892 INFO  [SoapUITestCaseRunner] running step [Call GetAllCustomers]
+2020-08-10 12:12:00,703 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:00,704 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:00,706 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:00,710 INFO  [SoapUITestCaseRunner] running step [AddCustomerIDintoProperties]
+2020-08-10 12:12:00,789 INFO  [log] 5227
+2020-08-10 12:12:00,792 INFO  [SoapUITestCaseRunner] running step [Call GetCustomerByID]
+2020-08-10 12:12:01,609 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:01,609 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:01,610 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:01,613 INFO  [SoapUITestCaseRunner] running step [Call DeleteCustomerByID]
+2020-08-10 12:12:02,659 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:02,660 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:02,660 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:02,661 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-08-10 12:12:02,662 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CustomerScenarioEnd to End Flow], time taken: 8642ms, status: FINISHED
+2020-08-10 12:12:02,671 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Customer Scenario with ConditionalGOTO]
+2020-08-10 12:12:02,672 INFO  [SoapUITestCaseRunner] running step [CustomerDetails]
+2020-08-10 12:12:02,672 INFO  [SoapUITestCaseRunner] running step [Call CreateCustomer]
+2020-08-10 12:12:03,522 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:03,522 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:03,523 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:03,524 INFO  [SoapUITestCaseRunner] running step [VerifyCustomerCreated_CondionalGoto]
+2020-08-10 12:12:03,538 INFO  [SoapUITestCaseRunner] running step [Call GetCustomerByID]
+2020-08-10 12:12:04,393 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:04,394 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:04,394 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:04,402 INFO  [SoapUITestCaseRunner] running step [Call DeleteCustomerByID]
+2020-08-10 12:12:05,691 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:05,691 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:05,691 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:05,692 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-08-10 12:12:05,693 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Customer Scenario with ConditionalGOTO], time taken: 3000ms, status: FINISHED
+2020-08-10 12:12:05,700 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Data Driven]
+2020-08-10 12:12:05,703 INFO  [SoapUITestCaseRunner] running step [DataDriven]
+2020-08-10 12:12:06,139 INFO  [log] 3 and 4
+2020-08-10 12:12:06,145 INFO  [log] ramani${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com
+2020-08-10 12:12:06,146 INFO  [log] Ramani
+2020-08-10 12:12:06,150 INFO  [log] Palaniappan
+2020-08-10 12:12:06,155 INFO  [log] 05/08/1998
+2020-08-10 12:12:06,198 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CustomerScenarioEnd to End Flow]
+2020-08-10 12:12:06,199 INFO  [SoapUITestCaseRunner] running step [CustomerDetails]
+2020-08-10 12:12:06,200 INFO  [SoapUITestCaseRunner] running step [Call CreateCustomer]
+2020-08-10 12:12:07,120 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:07,120 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:07,121 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:07,123 INFO  [SoapUITestCaseRunner] running step [Call GetAllCustomers]
+2020-08-10 12:12:12,812 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:12,812 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:12,813 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:12,814 INFO  [SoapUITestCaseRunner] running step [AddCustomerIDintoProperties]
+2020-08-10 12:12:12,819 INFO  [log] 5229
+2020-08-10 12:12:12,819 INFO  [SoapUITestCaseRunner] running step [Call GetCustomerByID]
+2020-08-10 12:12:13,557 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:13,558 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:13,558 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:13,561 INFO  [SoapUITestCaseRunner] running step [Call DeleteCustomerByID]
+2020-08-10 12:12:14,591 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:14,591 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:14,591 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:14,592 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-08-10 12:12:14,593 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CustomerScenarioEnd to End Flow], time taken: 8364ms, status: FINISHED
+2020-08-10 12:12:14,602 INFO  [log] Status: FINISHED, time taken for TestCase was: 8364 ms
+2020-08-10 12:12:14,610 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:14,619 INFO  [log] Rithan${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com
+2020-08-10 12:12:14,619 INFO  [log] Rithu
+2020-08-10 12:12:14,620 INFO  [log] Murugesh
+2020-08-10 12:12:14,624 INFO  [log] 11/05/2010
+2020-08-10 12:12:14,625 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CustomerScenarioEnd to End Flow]
+2020-08-10 12:12:14,626 INFO  [SoapUITestCaseRunner] running step [CustomerDetails]
+2020-08-10 12:12:14,627 INFO  [SoapUITestCaseRunner] running step [Call CreateCustomer]
+2020-08-10 12:12:15,532 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:15,532 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:15,533 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:15,535 INFO  [SoapUITestCaseRunner] running step [Call GetAllCustomers]
+2020-08-10 12:12:20,998 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:20,999 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:21,000 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:21,004 INFO  [SoapUITestCaseRunner] running step [AddCustomerIDintoProperties]
+2020-08-10 12:12:21,006 INFO  [log] 5230
+2020-08-10 12:12:21,007 INFO  [SoapUITestCaseRunner] running step [Call GetCustomerByID]
+2020-08-10 12:12:21,765 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:21,765 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:21,765 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:21,766 INFO  [SoapUITestCaseRunner] running step [Call DeleteCustomerByID]
+2020-08-10 12:12:22,800 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:22,800 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:22,801 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:22,802 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-08-10 12:12:22,802 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CustomerScenarioEnd to End Flow], time taken: 8158ms, status: FINISHED
+2020-08-10 12:12:22,805 INFO  [log] Status: FINISHED, time taken for TestCase was: 8158 ms
+2020-08-10 12:12:22,805 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:22,810 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Data Driven], time taken: 17104ms, status: FINISHED
+2020-08-10 12:12:22,814 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Database]
+2020-08-10 12:12:22,816 INFO  [SoapUITestCaseRunner] running step [DatabaseConnection]
+2020-08-10 12:12:23,039 INFO  [SoapUITestCaseRunner] Assertion [JDBC Status] has status VALID
+2020-08-10 12:12:23,039 INFO  [SoapUITestCaseRunner] Assertion [JDBC Timeout] has status VALID
+2020-08-10 12:12:23,041 INFO  [SoapUITestCaseRunner] running step [DatabaseTesting]
+2020-08-10 12:12:23,091 INFO  [log] <Results>
+    <ResultSet fetchSize="0">
+        <Row rowNumber="1">
+            <CUSTOMERDETAILS.FIRSTNAME>Rithu</CUSTOMERDETAILS.FIRSTNAME>
+            <CUSTOMERDETAILS.LASTNAME>Murugesh</CUSTOMERDETAILS.LASTNAME>
+            <CUSTOMERDETAILS.DOB>2008-12-06</CUSTOMERDETAILS.DOB>
+        </Row>
+        <Row rowNumber="2">
+            <CUSTOMERDETAILS.FIRSTNAME>Nishikaa</CUSTOMERDETAILS.FIRSTNAME>
+            <CUSTOMERDETAILS.LASTNAME>Murugesh</CUSTOMERDETAILS.LASTNAME>
+            <CUSTOMERDETAILS.DOB>2016-03-29</CUSTOMERDETAILS.DOB>
+        </Row>
+        <Row rowNumber="3">
+            <CUSTOMERDETAILS.FIRSTNAME>Nikhil</CUSTOMERDETAILS.FIRSTNAME>
+            <CUSTOMERDETAILS.LASTNAME>karthick</CUSTOMERDETAILS.LASTNAME>
+            <CUSTOMERDETAILS.DOB>2012-03-25</CUSTOMERDETAILS.DOB>
+        </Row>
+    </ResultSet>
+</Results>
+
+2020-08-10 12:12:23,123 INFO  [log] count is 3
+2020-08-10 12:12:23,124 INFO  [log] i is 1
+2020-08-10 12:12:23,138 INFO  [log] Rithu
+2020-08-10 12:12:23,141 INFO  [log] Rithu112@gmail.com
+2020-08-10 12:12:23,151 INFO  [log] Murugesh
+2020-08-10 12:12:23,156 INFO  [log] 2008-12-06
+2020-08-10 12:12:23,158 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CustomerScenarioEnd to End Flow]
+2020-08-10 12:12:23,159 INFO  [SoapUITestCaseRunner] running step [CustomerDetails]
+2020-08-10 12:12:23,160 INFO  [SoapUITestCaseRunner] running step [Call CreateCustomer]
+2020-08-10 12:12:24,038 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:24,038 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:24,039 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:24,040 INFO  [SoapUITestCaseRunner] running step [Call GetAllCustomers]
+2020-08-10 12:12:29,477 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:29,478 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:29,480 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:29,484 INFO  [SoapUITestCaseRunner] running step [AddCustomerIDintoProperties]
+2020-08-10 12:12:29,485 INFO  [log] 5231
+2020-08-10 12:12:29,486 INFO  [SoapUITestCaseRunner] running step [Call GetCustomerByID]
+2020-08-10 12:12:30,274 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:30,274 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:30,279 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:30,281 INFO  [SoapUITestCaseRunner] running step [Call DeleteCustomerByID]
+2020-08-10 12:12:31,367 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:31,368 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:31,368 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:31,369 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-08-10 12:12:31,370 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CustomerScenarioEnd to End Flow], time taken: 8185ms, status: FINISHED
+2020-08-10 12:12:31,371 INFO  [log] Status: FINISHED, time taken for TestCase was: 8185 ms
+2020-08-10 12:12:31,373 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:31,374 INFO  [log] i is 2
+2020-08-10 12:12:31,384 INFO  [log] Nishikaa
+2020-08-10 12:12:31,385 INFO  [log] Nishikaa112@gmail.com
+2020-08-10 12:12:31,387 INFO  [log] Murugesh
+2020-08-10 12:12:31,393 INFO  [log] 2016-03-29
+2020-08-10 12:12:31,397 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CustomerScenarioEnd to End Flow]
+2020-08-10 12:12:31,398 INFO  [SoapUITestCaseRunner] running step [CustomerDetails]
+2020-08-10 12:12:31,401 INFO  [SoapUITestCaseRunner] running step [Call CreateCustomer]
+2020-08-10 12:12:32,267 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:32,269 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:32,269 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:32,270 INFO  [SoapUITestCaseRunner] running step [Call GetAllCustomers]
+2020-08-10 12:12:38,735 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:38,735 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:38,737 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:38,741 INFO  [SoapUITestCaseRunner] running step [AddCustomerIDintoProperties]
+2020-08-10 12:12:38,742 INFO  [log] 5232
+2020-08-10 12:12:38,743 INFO  [SoapUITestCaseRunner] running step [Call GetCustomerByID]
+2020-08-10 12:12:39,575 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:39,576 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:39,577 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:39,580 INFO  [SoapUITestCaseRunner] running step [Call DeleteCustomerByID]
+2020-08-10 12:12:40,608 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:40,609 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:40,609 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:40,610 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-08-10 12:12:40,610 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CustomerScenarioEnd to End Flow], time taken: 9190ms, status: FINISHED
+2020-08-10 12:12:40,611 INFO  [log] Status: FINISHED, time taken for TestCase was: 9190 ms
+2020-08-10 12:12:40,611 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:40,613 INFO  [log] i is 3
+2020-08-10 12:12:40,616 INFO  [log] Nikhil
+2020-08-10 12:12:40,618 INFO  [log] Nikhil112@gmail.com
+2020-08-10 12:12:40,619 INFO  [log] karthick
+2020-08-10 12:12:40,621 INFO  [log] 2012-03-25
+2020-08-10 12:12:40,628 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CustomerScenarioEnd to End Flow]
+2020-08-10 12:12:40,629 INFO  [SoapUITestCaseRunner] running step [CustomerDetails]
+2020-08-10 12:12:40,631 INFO  [SoapUITestCaseRunner] running step [Call CreateCustomer]
+2020-08-10 12:12:41,515 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:41,515 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:41,516 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:41,517 INFO  [SoapUITestCaseRunner] running step [Call GetAllCustomers]
+2020-08-10 12:12:47,553 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:47,553 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:47,555 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:47,555 INFO  [SoapUITestCaseRunner] running step [AddCustomerIDintoProperties]
+2020-08-10 12:12:47,561 INFO  [log] 5233
+2020-08-10 12:12:47,561 INFO  [SoapUITestCaseRunner] running step [Call GetCustomerByID]
+2020-08-10 12:12:48,287 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:48,288 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:48,292 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:48,295 INFO  [SoapUITestCaseRunner] running step [Call DeleteCustomerByID]
+2020-08-10 12:12:49,175 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:49,176 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:49,176 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:49,180 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-08-10 12:12:49,181 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CustomerScenarioEnd to End Flow], time taken: 8516ms, status: FINISHED
+2020-08-10 12:12:49,182 INFO  [log] Status: FINISHED, time taken for TestCase was: 8516 ms
+2020-08-10 12:12:49,182 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:49,183 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Database], time taken: 26358ms, status: FINISHED
+2020-08-10 12:12:49,186 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [System Testing]
+2020-08-10 12:12:49,186 INFO  [SoapUITestCaseRunner] running step [VerifyCustomerCreated]
+2020-08-10 12:12:49,217 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [CustomerScenarioEnd to End Flow]
+2020-08-10 12:12:49,217 INFO  [SoapUITestCaseRunner] running step [CustomerDetails]
+2020-08-10 12:12:49,219 INFO  [SoapUITestCaseRunner] running step [Call CreateCustomer]
+2020-08-10 12:12:50,057 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:50,058 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:50,058 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:50,059 INFO  [SoapUITestCaseRunner] running step [Call GetAllCustomers]
+2020-08-10 12:12:56,132 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:56,132 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:56,134 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:56,138 INFO  [SoapUITestCaseRunner] running step [AddCustomerIDintoProperties]
+2020-08-10 12:12:56,139 INFO  [log] 5234
+2020-08-10 12:12:56,140 INFO  [SoapUITestCaseRunner] running step [Call GetCustomerByID]
+2020-08-10 12:12:56,937 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:56,938 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:56,940 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:56,943 INFO  [SoapUITestCaseRunner] running step [Call DeleteCustomerByID]
+2020-08-10 12:12:58,002 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-10 12:12:58,002 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-08-10 12:12:58,002 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-08-10 12:12:58,003 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-08-10 12:12:58,004 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [CustomerScenarioEnd to End Flow], time taken: 8762ms, status: FINISHED
+2020-08-10 12:12:58,005 INFO  [log] Status: FINISHED, time taken for TestCase was: 8762 ms
+2020-08-10 12:12:58,005 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:58,006 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [System Testing], time taken: 8815ms, status: FINISHED
+2020-08-10 12:12:58,008 INFO  [SoapUITestCaseRunner] Project [Customer_TC01] finished with status [FINISHED] in 84539ms
+2020-08-10 12:15:05,402 WARN  [Tools] Could not delete temporary directory C:\Users\RAMANI~1\AppData\Local\Temp\c574a5ea-29e3-428f-9087-fea26c97fd70
+2020-08-10 12:15:05,420 WARN  [Tools] Could not delete temporary directory C:\Users\RAMANI~1\AppData\Local\Temp\c0559548-3814-461a-b772-4bf052736dfe

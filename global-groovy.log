@@ -1,0 +1,144 @@
+2020-08-10 12:00:41,504 INFO  [log] 5199
+2020-08-10 12:00:46,680 INFO  [log] 3 and 4
+2020-08-10 12:00:46,690 INFO  [log] ramani${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com
+2020-08-10 12:00:46,691 INFO  [log] Ramani
+2020-08-10 12:00:46,695 INFO  [log] Palaniappan
+2020-08-10 12:00:46,705 INFO  [log] 05/08/1998
+2020-08-10 12:00:52,013 INFO  [log] 5201
+2020-08-10 12:00:53,901 INFO  [log] Status: FINISHED, time taken for TestCase was: 7112 ms
+2020-08-10 12:00:53,921 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:00:53,930 INFO  [log] Rithan${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com
+2020-08-10 12:00:53,931 INFO  [log] Rithu
+2020-08-10 12:00:53,932 INFO  [log] Murugesh
+2020-08-10 12:00:53,933 INFO  [log] 16/05/2010
+2020-08-10 12:00:54,683 INFO  [log] Status: FAILED, time taken for TestCase was: 714 ms
+2020-08-10 12:00:54,684 INFO  [log] Number of test steps which ran: 2
+2020-08-10 12:00:55,820 INFO  [log] Status: FAILED, time taken for TestCase was: 712 ms
+2020-08-10 12:00:55,823 INFO  [log] Number of test steps which ran: 2
+2020-08-10 12:06:38,727 INFO  [log] 5216
+2020-08-10 12:06:44,020 INFO  [log] 3 and 4
+2020-08-10 12:06:44,030 INFO  [log] ramani${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com
+2020-08-10 12:06:44,031 INFO  [log] Ramani
+2020-08-10 12:06:44,032 INFO  [log] Palaniappan
+2020-08-10 12:06:44,038 INFO  [log] 05/08/1998
+2020-08-10 12:06:50,422 INFO  [log] 5218
+2020-08-10 12:06:52,186 INFO  [log] Status: FINISHED, time taken for TestCase was: 8077 ms
+2020-08-10 12:06:52,195 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:06:52,203 INFO  [log] Rithan${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com
+2020-08-10 12:06:52,204 INFO  [log] Rithu
+2020-08-10 12:06:52,205 INFO  [log] Murugesh
+2020-08-10 12:06:52,207 INFO  [log] 16/05/2010
+2020-08-10 12:06:52,973 INFO  [log] Status: FAILED, time taken for TestCase was: 737 ms
+2020-08-10 12:06:52,973 INFO  [log] Number of test steps which ran: 2
+2020-08-10 12:06:53,329 INFO  [log] <Results>
+    <ResultSet fetchSize="0">
+        <Row rowNumber="1">
+            <CUSTOMERDETAILS.FIRSTNAME>Rithu</CUSTOMERDETAILS.FIRSTNAME>
+            <CUSTOMERDETAILS.LASTNAME>Murugesh</CUSTOMERDETAILS.LASTNAME>
+            <CUSTOMERDETAILS.DOB>2008-12-06</CUSTOMERDETAILS.DOB>
+        </Row>
+        <Row rowNumber="2">
+            <CUSTOMERDETAILS.FIRSTNAME>Nishikaa</CUSTOMERDETAILS.FIRSTNAME>
+            <CUSTOMERDETAILS.LASTNAME>Murugesh</CUSTOMERDETAILS.LASTNAME>
+            <CUSTOMERDETAILS.DOB>2016-03-29</CUSTOMERDETAILS.DOB>
+        </Row>
+        <Row rowNumber="3">
+            <CUSTOMERDETAILS.FIRSTNAME>Nikhil</CUSTOMERDETAILS.FIRSTNAME>
+            <CUSTOMERDETAILS.LASTNAME>karthick</CUSTOMERDETAILS.LASTNAME>
+            <CUSTOMERDETAILS.DOB>2012-03-25</CUSTOMERDETAILS.DOB>
+        </Row>
+    </ResultSet>
+</Results>
+
+2020-08-10 12:06:53,375 INFO  [log] count is 3
+2020-08-10 12:06:53,375 INFO  [log] i is 1
+2020-08-10 12:06:53,384 INFO  [log] Rithu
+2020-08-10 12:06:53,388 INFO  [log] Rithu112@gmail.com
+2020-08-10 12:06:53,390 INFO  [log] Murugesh
+2020-08-10 12:06:53,393 INFO  [log] 2008-12-06
+2020-08-10 12:06:59,484 INFO  [log] 5219
+2020-08-10 12:07:01,173 INFO  [log] Status: FINISHED, time taken for TestCase was: 7733 ms
+2020-08-10 12:07:01,174 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:07:01,174 INFO  [log] i is 2
+2020-08-10 12:07:01,184 INFO  [log] Nishikaa
+2020-08-10 12:07:01,184 INFO  [log] Nishikaa112@gmail.com
+2020-08-10 12:07:01,185 INFO  [log] Murugesh
+2020-08-10 12:07:01,190 INFO  [log] 2016-03-29
+2020-08-10 12:07:07,323 INFO  [log] 5220
+2020-08-10 12:07:09,161 INFO  [log] Status: FINISHED, time taken for TestCase was: 7926 ms
+2020-08-10 12:07:09,161 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:07:09,163 INFO  [log] i is 3
+2020-08-10 12:07:09,167 INFO  [log] Nikhil
+2020-08-10 12:07:09,168 INFO  [log] Nikhil112@gmail.com
+2020-08-10 12:07:09,173 INFO  [log] karthick
+2020-08-10 12:07:09,175 INFO  [log] 2012-03-25
+2020-08-10 12:07:15,095 INFO  [log] 5221
+2020-08-10 12:07:16,973 INFO  [log] Status: FINISHED, time taken for TestCase was: 7761 ms
+2020-08-10 12:07:16,973 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:07:23,101 INFO  [log] 5222
+2020-08-10 12:07:24,906 INFO  [log] Status: FINISHED, time taken for TestCase was: 7864 ms
+2020-08-10 12:07:24,910 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:00,789 INFO  [log] 5227
+2020-08-10 12:12:06,139 INFO  [log] 3 and 4
+2020-08-10 12:12:06,145 INFO  [log] ramani${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com
+2020-08-10 12:12:06,146 INFO  [log] Ramani
+2020-08-10 12:12:06,150 INFO  [log] Palaniappan
+2020-08-10 12:12:06,155 INFO  [log] 05/08/1998
+2020-08-10 12:12:12,819 INFO  [log] 5229
+2020-08-10 12:12:14,602 INFO  [log] Status: FINISHED, time taken for TestCase was: 8364 ms
+2020-08-10 12:12:14,610 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:14,619 INFO  [log] Rithan${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com
+2020-08-10 12:12:14,619 INFO  [log] Rithu
+2020-08-10 12:12:14,620 INFO  [log] Murugesh
+2020-08-10 12:12:14,624 INFO  [log] 11/05/2010
+2020-08-10 12:12:21,006 INFO  [log] 5230
+2020-08-10 12:12:22,805 INFO  [log] Status: FINISHED, time taken for TestCase was: 8158 ms
+2020-08-10 12:12:22,805 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:23,091 INFO  [log] <Results>
+    <ResultSet fetchSize="0">
+        <Row rowNumber="1">
+            <CUSTOMERDETAILS.FIRSTNAME>Rithu</CUSTOMERDETAILS.FIRSTNAME>
+            <CUSTOMERDETAILS.LASTNAME>Murugesh</CUSTOMERDETAILS.LASTNAME>
+            <CUSTOMERDETAILS.DOB>2008-12-06</CUSTOMERDETAILS.DOB>
+        </Row>
+        <Row rowNumber="2">
+            <CUSTOMERDETAILS.FIRSTNAME>Nishikaa</CUSTOMERDETAILS.FIRSTNAME>
+            <CUSTOMERDETAILS.LASTNAME>Murugesh</CUSTOMERDETAILS.LASTNAME>
+            <CUSTOMERDETAILS.DOB>2016-03-29</CUSTOMERDETAILS.DOB>
+        </Row>
+        <Row rowNumber="3">
+            <CUSTOMERDETAILS.FIRSTNAME>Nikhil</CUSTOMERDETAILS.FIRSTNAME>
+            <CUSTOMERDETAILS.LASTNAME>karthick</CUSTOMERDETAILS.LASTNAME>
+            <CUSTOMERDETAILS.DOB>2012-03-25</CUSTOMERDETAILS.DOB>
+        </Row>
+    </ResultSet>
+</Results>
+
+2020-08-10 12:12:23,123 INFO  [log] count is 3
+2020-08-10 12:12:23,124 INFO  [log] i is 1
+2020-08-10 12:12:23,138 INFO  [log] Rithu
+2020-08-10 12:12:23,141 INFO  [log] Rithu112@gmail.com
+2020-08-10 12:12:23,151 INFO  [log] Murugesh
+2020-08-10 12:12:23,156 INFO  [log] 2008-12-06
+2020-08-10 12:12:29,485 INFO  [log] 5231
+2020-08-10 12:12:31,371 INFO  [log] Status: FINISHED, time taken for TestCase was: 8185 ms
+2020-08-10 12:12:31,373 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:31,374 INFO  [log] i is 2
+2020-08-10 12:12:31,384 INFO  [log] Nishikaa
+2020-08-10 12:12:31,385 INFO  [log] Nishikaa112@gmail.com
+2020-08-10 12:12:31,387 INFO  [log] Murugesh
+2020-08-10 12:12:31,393 INFO  [log] 2016-03-29
+2020-08-10 12:12:38,742 INFO  [log] 5232
+2020-08-10 12:12:40,611 INFO  [log] Status: FINISHED, time taken for TestCase was: 9190 ms
+2020-08-10 12:12:40,611 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:40,613 INFO  [log] i is 3
+2020-08-10 12:12:40,616 INFO  [log] Nikhil
+2020-08-10 12:12:40,618 INFO  [log] Nikhil112@gmail.com
+2020-08-10 12:12:40,619 INFO  [log] karthick
+2020-08-10 12:12:40,621 INFO  [log] 2012-03-25
+2020-08-10 12:12:47,561 INFO  [log] 5233
+2020-08-10 12:12:49,182 INFO  [log] Status: FINISHED, time taken for TestCase was: 8516 ms
+2020-08-10 12:12:49,182 INFO  [log] Number of test steps which ran: 6
+2020-08-10 12:12:56,139 INFO  [log] 5234
+2020-08-10 12:12:58,005 INFO  [log] Status: FINISHED, time taken for TestCase was: 8762 ms
+2020-08-10 12:12:58,005 INFO  [log] Number of test steps which ran: 6
